@@ -46,6 +46,6 @@ int main()
 {
     int a[] = {0, 0, 1, 0, 1, 1, 0};
     int n = sizeof(a) / sizeof(a[0]);
-    printf("Output: %d\n", LongestSubarray(a, n)); //4
+    printf("Output: %d\n", LongestSubarray(a, n)); //6
     return 0;
 }
